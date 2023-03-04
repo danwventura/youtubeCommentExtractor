@@ -1,0 +1,25 @@
+.card-body {
+    background-color:#F2F2F2;
+}
+
+#mainContainer {
+    /* background-color: red; */
+    margin-top: 15%;
+}
+
+#elementRow {
+    margin-top: 25px;
+}
+
+#youtubeImg image{
+    height: 40px;
+}
+
+#ytUrl {
+    width:100%;
+
+}
+
+#download {
+  margin-left: 30px;  
+}
