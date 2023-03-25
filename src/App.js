@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import styles from './styles.css';
-
+import doSomething from './download';
 
 function App() {
+
   return (
     <div className="App">
       <div id="mainContainer" className='card'>
@@ -23,7 +24,7 @@ function App() {
               <input type="text" id="ytUrl"></input>
             </div>
             <div class="col-2">
-              <button id="download" type="button" className="btn btn-primary text-start">Download</button>
+              <button id="download" type="button" onClick={doSomething} className="btn btn-primary text-start">Download</button>
             </div>
             <div class="col-4">&nbsp;</div>
           </div>       
